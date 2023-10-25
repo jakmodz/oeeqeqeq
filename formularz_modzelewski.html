@@ -4,9 +4,206 @@
 <head>
 <meta charset="utf-8">
 <title>Jakub Modzelewski </title>
+<style>
+body   {
+    background-color: #757f94;
+}
+.maring{
+   height: 50px;
+    width: 900px;
+    
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+.sms{
+    margin-left: ;
+
+}
+.pytanie10{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    
+}
+.pytanie11{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.city{
+    position: absolute;
+    right: 340px;
+}
+.pytanie12{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.pytanie13{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.pytanie14{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+</style>
 </head>
-<body>
-<p> tutaj bedzie formularz</p>
-<a href="index.html">powrot</a>
+<body >
+
+
+ 
+<h2 align="center" >ANKIETA DO RESTRACJI  NA NASZYM SKLEPIE SPORTOWYM</h2>
+<form enctype="text/plain" action="mailto:modzeleklm@gmail.com" subject="formularz_dane" method="Post">
+<table  class="table" >
+    <TR height="50">
+        <TD width=>  
+        <b> 1.podaj swoje Imię :</b> &nbsp&nbsp&nbsp 
+<input name="imie" ></TD>
+<td  class="">
+<p class="pytanie10"> 10.chcesz dostać smsy z kodami rabatowymi?</p>
+<input style="margin-left: 800px;"  type="checkbox" name="sms"value="m"> nie wiem
+<input   type="checkbox" name="sms"value="m" checked> Tak
+<input  type="checkbox" name="sms"value="m"> nie
+<input  type="checkbox" name="sms"value="m"> na raz narazie nie
+<input  type="checkbox" name="sms"value="m"> nigdy
+</td>
+</TR>
+<tr>
+    <td>
+<br>
+<b>2.email </b> <input name="email" size="22" type="email">
+</td>
+<td>
+   <p class="pytanie11">11.jakie miasto zamieszkujesz?</p>
+    <select align="right" class="city">
+        <option value="gdansk">gdansk</option>
+        <option value="warszawa">Warszawa</option>
+        <option value="gdynia">Gdynia</option>
+        <option value="wroclaw">Wrocław</option>
+
+
+
+
+
+    </select>
+
+
+</td>
+</tr>
+<tr>
+   <td> <b>3.Czy jestes pelnoletni</b><br>
+       <input type="radio" name="pyt3" value="tak"> Tak
+    
+    <input type="radio" name="pyt3" value="nie"> Nie
+    <br><br></td>
+    <td>
+        <p class="pytanie12">12.Jaki jest twoj budzet na zakup butow sportowych?</p>
+        <input style="margin-left: 900px;" type="radio" name="BUDZET"value="100-150"> 100-150 zł
+        <input  type="radio" name="budzet"value="150-200"> 150-200 zł<br>
+        <input style="margin-left: 900px;" type="radio" name="budzet"value="200-250"> 200-250 zł
+        <input  type="radio" name="budzet"value="250-300+"> 250-300+ zł<br>
+    </td>
+</tr>
+<tr>
+    <td>4.podaj datę urodzenia &nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp<br><input type="date"> <br></td>
+    <td>
+        <p class="pytanie13">13.Jak czesto kupujesz sprzet sportowy?</p>
+        <input style="margin-left: 900px;"  type="checkbox" name="sprzet" value="2-3tyg">co 2-3 tygodnie<br>
+        <input style="margin-left: 900px;"  type="checkbox" name="sprzet" value="1-2mies">co 1-2 miesiace<br>
+        <input  style="margin-left: 900px;" type="checkbox" name="sprzet" value="2-4mies">co 2-4 miesiace<br>
+        <input style="margin-left: 900px;"  type="checkbox" name="sprzet" value="4-+">co 4 lub wiecej miesiecy<br>
+    </td>
+    
+</tr>
+<tr width="700">
+    <td>
+    5.Jaka jest twoja płec<br>
+    <input type="checkbox" name="plec"value="m"> meżczyzna<br>
+    <input type="checkbox" name="plec" value="k"> kobieta<br>
+    <input type="checkbox" name="plec" value="inna"> inna<br>
+    </td>
+    <td>
+
+        <p class="pytanie14">14.Czy polecisz nasz sklep znajomym</p>
+        <input style="margin-left: 830px;"  type="radio" name="sms"value="zastanowie sie"> zastanowie sie
+        <input   type="radio" name="sms"value="tak" checked> Tak
+        <input  type="radio" name="sms"value="nie"> nie
+        <input  type="radio" name="sms"value="nie wiem"> nie wiem
+        
+    </td>
+    
+</tr>
+<tr>
+    <td> 6.Jaki jest twoj ulubiony sport
+
+         <select>
+            <option value="koszykowka">koszykowka</option>
+            <option value="pilka nozna">pilka nozna</option>
+            <option value="tennis">tennis</option>
+            <option value="kolarstwo">kolarstwo</option>
+            <option value="kajakarstwo">  kajakarstwo</option>
+            <option value="siatkowka">siatkowka</option>
+        </select> 
+    </td>
+</tr>
+<tr>
+    <td>
+        7. Wybierz skad dowiedziles sie o naszym SKLEPIE<br>
+        <input type="checkbox" name="znajomy" value="1"> od znajomego<br>
+        <input type="checkbox" name="ig" value="2"> instagram<br>
+        <input type="checkbox" name="yt" value="3"> youtube<br>
+        <input type="checkbox" name="inne" value="4"> inne źrodło<br>
+    </td>
+    <td>
+        <p align="right">15. uwagi dotyczace sklepu</p>
+        <textarea name="uwagi" ROWS="7" COLS="55" style="margin-left: 730px;">
+
+        </textarea>
+    </td>
+</tr>
+<tr  >
+    <td width="500">
+    8.nr tel <input name="numer"  id="phone"type="number"  placeholder="+48 000 000 000">
+     
+        </td>
+        <td>
+            <br><br><br> <input type="submit" value="przeslij" > <input type="reset" > </td>
+    
+</tr>
+<tr>
+    <td>
+        9. czy chcialbys dostawac newsletter?<br>
+        <input  type="radio" name="news"value="tak"> tak<br>
+    <input type="radio" name="news" value="nie"> nie<br>
+    <input  type="radio" name="news" value="narazienie"> na razie nie<br>
+    </td>
+    <td>
+        <p align="right">haslo ktore dala ci ekspedientka</p>
+       <input style="margin-left: 950px;" type="password" name="haslo" id="haslo" placeholder="haslo" >
+    </td>
+</tr>
+</table>
+</form>
+
+
+
+
+
+<!--<a href="index.html">powrot</a>-->
 </body>
 </html>
